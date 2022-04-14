@@ -54,11 +54,18 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_back"
+        android:id="@+id/tombol_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tombol_hapus"
+        android:text="Update Data"/>
+
+    <Button
+        android:id="@+id/tombol_hapus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:backgroundTint="@color/design_default_color_error"
-        android:hint="Kembali kehalaman utama" />
+        android:text="Hapus Data" />
 
 </RelativeLayout>

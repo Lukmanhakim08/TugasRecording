@@ -52,4 +52,13 @@ class MainActivity : AppCompatActivity() {
 
             })
     }
+
+    override fun onResume() {
+        super.onResume()
+        getDataUser()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
 }
